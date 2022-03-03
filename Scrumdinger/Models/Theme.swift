@@ -29,4 +29,7 @@ enum Theme: String {
        Color(rawValue)
     }
     
+    var name: String {
+        rawValue.capitalized
+    }
 }
