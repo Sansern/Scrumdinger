@@ -16,6 +16,7 @@ struct DetailEditView: View {
                     .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
                     Spacer()
                     Text("\(Int(data.lengthInMinutes)) minutes")
+                        .accessibilityHidden(true)
                 }
             }
             Section (header: Text("Attendee")) {
