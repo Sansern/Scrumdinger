@@ -22,7 +22,7 @@ struct MeetingView: View {
                 VStack(alignment: .trailing) {
                     Text("Seconds Remmaining")
                         .font(.caption)
-                    Label("793", systemImage: "hourglass.tophalf.fill")
+                    Label("600", systemImage: "hourglass.tophalf.fill")
                 }
                 
             }

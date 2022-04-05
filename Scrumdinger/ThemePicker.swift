@@ -1,10 +1,3 @@
-//
-//  ThemePicker.swift
-//  Scrumdinger
-//
-//  Created by Sansern Wuthirat on 4/4/22.
-//
-
 import SwiftUI
 
 struct ThemePicker: View {
