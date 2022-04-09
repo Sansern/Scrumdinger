@@ -115,15 +115,15 @@
 			isa = PBXGroup;
 			children = (
 				05CC19F927C0D53600191ED3 /* ScrumdingerApp.swift */,
+				0583A0D727C3FFE200670E49 /* ScrumsView.swift */,
+				05142DC527D13791003229C4 /* DetailView.swift */,
+				0518252D27DBC45700D37330 /* DetailEditView.swift */,
 				05F36B0227C22C4A00C42835 /* CardView.swift */,
 				05CC19FB27C0D53600191ED3 /* MeetingView.swift */,
 				054FCF342800C1A90040A041 /* MeetingHeaderView.swift */,
 				05F36B0527C239F900C42835 /* TrailingIconLabelStyle.swift */,
 				0518252927DBBD8B00D37330 /* ThemeView.swift */,
 				05987A3D27FB59AA00CAC480 /* ThemePicker.swift */,
-				0583A0D727C3FFE200670E49 /* ScrumsView.swift */,
-				0518252D27DBC45700D37330 /* DetailEditView.swift */,
-				05142DC527D13791003229C4 /* DetailView.swift */,
 				05F36AFD27C1FB4600C42835 /* Models */,
 				05CC19FD27C0D53800191ED3 /* Assets.xcassets */,
 				05CC19FF27C0D53800191ED3 /* Preview Content */,
