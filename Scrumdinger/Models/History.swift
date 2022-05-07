@@ -1,10 +1,3 @@
-//
-//  History.swift
-//  Scrumdinger
-//
-//  Created by Sansern Wuthirat on 5/7/22.
-//
-
 import Foundation
 
 struct History: Identifiable, Codable {
