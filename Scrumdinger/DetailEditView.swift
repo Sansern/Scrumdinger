@@ -1,3 +1,7 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 import SwiftUI
 
 struct DetailEditView: View {
@@ -6,8 +10,8 @@ struct DetailEditView: View {
     
     var body: some View {
         Form {
-            Section(header: Text("Meeting Info")){
-                TextField("Text", text: $data.title)
+            Section(header: Text("Meeting Info")) {
+                TextField("Title", text: $data.title)
                 HStack {
                     Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
                         Text("Length")
@@ -19,7 +23,7 @@ struct DetailEditView: View {
                 }
                 ThemePicker(selection: $data.theme)
             }
-            Section (header: Text("Attendee")) {
+            Section(header: Text("Attendees")) {
                 ForEach(data.attendees) { attendee in
                     Text(attendee.name)
                 }

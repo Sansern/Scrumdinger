@@ -1,3 +1,7 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 import SwiftUI
 
 struct DetailView: View {
@@ -21,7 +25,7 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
                 HStack {
-                    Label("Theme"  , systemImage: "paintpalette")
+                    Label("Theme", systemImage: "paintpalette")
                     Spacer()
                     Text(scrum.theme.name)
                         .padding(4)
@@ -45,7 +49,6 @@ struct DetailView: View {
                         Image(systemName: "calendar")
                         Text(history.date, style: .date)
                     }
-                    
                 }
             }
         }
@@ -56,7 +59,6 @@ struct DetailView: View {
                 data = scrum.data
             }
         }
-        
         .sheet(isPresented: $isPresentingEditView) {
             NavigationView {
                 DetailEditView(data: $data)

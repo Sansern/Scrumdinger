@@ -1,20 +1,18 @@
-//
-//  ErrorView.swift
-//  Scrumdinger
-//
-//  Created by Sansern Wuthirat on 5/7/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
 struct ErrorView: View {
     let errorWrapper: ErrorWrapper
+    
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
         NavigationView {
             VStack {
-                Text("An error has Occurred!")
+                Text("An error has occurred!")
                     .font(.title)
                     .padding(.bottom)
                 Text(errorWrapper.error.localizedDescription)
@@ -28,7 +26,7 @@ struct ErrorView: View {
             .background(.ultraThinMaterial)
             .cornerRadius(16)
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar{
+            .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Dismiss") {
                         dismiss()
@@ -46,7 +44,7 @@ struct ErrorView_Previews: PreviewProvider {
     
     static var wrapper: ErrorWrapper {
         ErrorWrapper(error: SampleError.errorRequired,
-        guidance: "You can safety ignore this error.")
+                     guidance: "You can safely ignore this error.")
     }
     
     static var previews: some View {

@@ -1,9 +1,6 @@
-//
-//  ScrumStore.swift
-//  Scrumdinger
-//
-//  Created by Sansern Wuthirat on 5/1/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import Foundation
 import SwiftUI
