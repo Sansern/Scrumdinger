@@ -143,6 +143,7 @@
 			children = (
 				05DD886628267263003A426B /* Models */,
 				05CC19F927C0D53600191ED3 /* ScrumdingerApp.swift */,
+				0583A0D727C3FFE200670E49 /* ScrumsView.swift */,
 				05F36B0227C22C4A00C42835 /* CardView.swift */,
 				0518252D27DBC45700D37330 /* DetailEditView.swift */,
 				05142DC527D13791003229C4 /* DetailView.swift */,
@@ -154,7 +155,6 @@
 				0538139F28277D5E00C8AEB1 /* HistoryView.swift */,
 				0538139B28276E5800C8AEB1 /* SpeakerArc.swift */,
 				051CD39C280184ED00CAE76B /* ScrumProgressViewStyle.swift */,
-				0583A0D727C3FFE200670E49 /* ScrumsView.swift */,
 				05987A3D27FB59AA00CAC480 /* ThemePicker.swift */,
 				0518252927DBBD8B00D37330 /* ThemeView.swift */,
 				05F36B0527C239F900C42835 /* TrailingIconLabelStyle.swift */,
